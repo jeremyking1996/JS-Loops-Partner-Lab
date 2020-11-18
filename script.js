@@ -1,18 +1,30 @@
-// let fArray=[32, 33.8, 35.6]
-
-// for (let fArray=[],i=0;i<=100;++i) a[i]=i;
 
 
+// //for (let celsius=0;celsius<=100;celsius++){
+//     console.log(celsius);
+// }
+//     for (let fahrenheit=32; fahrenheit <=212; fahrenheit ++)  {      
+//     console.log(fahrenheit); 
 
-for (let celcius=0;celcius<=100;++celcius){
-    console.log(celcius);
+// //}
+
+
+let celsius=0
+
+while (celsius<=100) {
+    fahrenheit = ((celsius*9/5) +32);
+    console.log(fahrenheit)
+    celsius++
 }
 
+let userNumber= prompt ("Enter a number:");
+console.log (userNumber);
 
+let sum=0;
+for (let i = 1 ; i <= userNumber; i++){
+sum+=i;
 
-while (celcius<=100) {let farenheight = ((celcius*9/5) +32);
-console.log(farenheight)}
+}
+console.log(sum);
 
-
-
-// (0°C × 9/5) + 32 = 32°F
+//+ for userNumber  + for );
