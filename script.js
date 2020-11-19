@@ -1,4 +1,5 @@
 
+//Part One
 
 // //for (let celsius=0;celsius<=100;celsius++){
 //     console.log(celsius);
@@ -28,3 +29,19 @@ sum+=i;
 console.log(sum);
 
 //+ for userNumber  + for );
+
+
+
+//Part Two
+
+// Problem 1:
+
+console.log ("Meter         Yards" )
+
+for (let m=10; m<=300; m+=10){
+    let y = (m*1.0936);
+    console.log (m + "           "+ y);
+}
+
+// Problem 2:
+
