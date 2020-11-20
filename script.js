@@ -46,7 +46,7 @@ for (let m=10; m<=300; m+=10){
 // Problem 2:
 
  let numArray = [];
- let size=10;
+ //let size=10;
 
  for (let i=0; i<size; i++){
      numArray[i]= prompt ("Enter a number:"); 
@@ -68,3 +68,14 @@ function checkPrimeNumber(n) {
 }
 
 console.log (checkPrimeNumber(10));
+
+
+
+// Draft of Part Three - Problem one (not completed)
+// let size=10;
+// let bankBalance = 0
+// for (let y=0; y<size; i++){
+//     bankBalance=100+(.01*bankBalance);
+// }
+
+// console.log ();
