@@ -45,16 +45,16 @@ for (let m=10; m<=300; m+=10){
 
 // Problem 2:
 
-// let numArray = [];
-// let size=10;
+ let numArray = [];
+ let size=10;
 
-// for (let i=0; i<size; i++){
-//     numArray[i]= prompt ("Enter a number:"); 
-// console.log (numArray);
-// }
+ for (let i=0; i<size; i++){
+     numArray[i]= prompt ("Enter a number:"); 
+}
+ console.log (numArray);
+ console.log (Math.max(...numArray));
+ alert (Math.max(...numArray));
 
-// console.log (Math.max(...numArray));
-// alert (Math.max(...numArray));
 
 // Problem 3
 
