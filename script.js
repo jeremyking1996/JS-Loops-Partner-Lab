@@ -10,23 +10,23 @@
 // //}
 
 
-let celsius=0
+// let celsius=0
 
-while (celsius<=100) {
-    fahrenheit = ((celsius*9/5) +32);
-    console.log(fahrenheit)
-    celsius++
-}
+// while (celsius<=100) {
+//     fahrenheit = ((celsius*9/5) +32);
+//     console.log(fahrenheit)
+//     celsius++
+// }
 
-let userNumber= prompt ("Enter a number:");
-console.log (userNumber);
+// let userNumber= prompt ("Enter a number:");
+// console.log (userNumber);
 
-let sum=0;
-for (let i = 1 ; i <= userNumber; i++){
-sum+=i;
+// let sum=0;
+// for (let i = 1 ; i <= userNumber; i++){
+// sum+=i;
 
-}
-console.log(sum);
+// }
+// console.log(sum);
 
 //+ for userNumber  + for );
 
@@ -45,14 +45,26 @@ for (let m=10; m<=300; m+=10){
 
 // Problem 2:
 
-let numArray = [];
-let size=10;
+// let numArray = [];
+// let size=10;
 
-for (let i=0; i<size; i++){
-    numArray[i]= prompt ("Enter a number:"); 
-console.log (numArray);
+// for (let i=0; i<size; i++){
+//     numArray[i]= prompt ("Enter a number:"); 
+// console.log (numArray);
+// }
+
+// console.log (Math.max(...numArray));
+// alert (Math.max(...numArray));
+
+// Problem 3
+
+function checkPrimeNumber(n) {
+    if (n<=1) return false;
+    if (n==2) return true; 
+    for (let i=2; i<n; i++) {
+        if(n%i === 0) return false;
+    }
+    return true;
 }
 
-console.log (Math.max(numArray));
-alert (Math.max(numArray));
-
+console.log (checkPrimeNumber(10));
